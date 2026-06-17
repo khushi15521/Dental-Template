@@ -1,0 +1,2 @@
+Hi {{patient_name}}, 🌷💖
+Happy Mother's Day from {{clinic_name}}! Today, we celebrate all the wonderful moms who brighten our lives with their love, care, and beautiful smiles. Wishing you a day filled with joy, appreciation, and special moments with your loved ones. 🦷✨💙

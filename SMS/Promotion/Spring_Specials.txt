@@ -1,0 +1,4 @@
+Hi {{patient_name}}, 🌸🦷
+Spring is the perfect time for a fresh start—and a fresh smile! Take advantage of our Spring Specials at {{clinic_name}} and brighten your smile this season. To learn more or schedule your appointment, call {{clinic_phone}} today. 💙✨
+
+Contact us for offer details and availability.

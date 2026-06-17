@@ -1,0 +1,2 @@
+Hi {{patient_name}}, 🎉✨
+Happy New Year from {{clinic_name}}! Wishing you a year filled with happiness, good health, and plenty of reasons to smile. Thank you for trusting us with your dental care. Here's to a bright and healthy year ahead! 🦷💙🥂

@@ -1,0 +1,2 @@
+Hi {{patient_name}}, 😊
+Just a quick update from {{clinic_name}}. Our doctor is currently on vacation and will be back soon. If you need assistance or would like to schedule an appointment, please call us at {{clinic_phone}}. We're happy to help! 💙

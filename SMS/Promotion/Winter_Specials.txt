@@ -1,0 +1,4 @@
+Hi {{patient_name}}, ❄️🦷
+Warm up your smile with our Winter Specials at {{clinic_name}}! Enjoy seasonal savings on dental care and start the season with a healthy, confident smile. To learn more or schedule your appointment, call {{clinic_phone}} today. 💙✨
+
+Contact us for offer details and availability.

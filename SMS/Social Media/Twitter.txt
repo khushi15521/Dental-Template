@@ -1,0 +1,2 @@
+Hi {{patient_name}}, 🐦✨
+Stay connected with {{clinic_name}}! Follow us on Twitter for dental tips, smile care advice, special offers, and the latest clinic updates. For questions or appointments, call {{clinic_phone}}. We’d love to connect with you! 💙🦷

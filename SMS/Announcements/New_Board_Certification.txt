@@ -1,0 +1,2 @@
+Hi {{patient_name}}, 🎉
+Exciting news from {{clinic_name}}! Our doctor has earned a new board certification, reflecting their commitment to advanced training and exceptional patient care. To schedule your next appointment, call us at {{clinic_phone}}. We look forward to seeing your smile! 🦷💙

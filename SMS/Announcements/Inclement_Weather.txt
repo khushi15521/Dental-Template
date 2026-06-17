@@ -1,0 +1,2 @@
+Hi {{patient_name}}, 🌧️
+Due to inclement weather, {{clinic_name}} may experience schedule changes or adjusted office hours. If you have an upcoming appointment or need assistance, please call us at {{clinic_phone}}. Your safety is our top priority. Stay safe! 💙

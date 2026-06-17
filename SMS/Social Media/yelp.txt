@@ -1,0 +1,2 @@
+Hi {{patient_name}}, ⭐💙
+Thank you for trusting {{clinic_name}} with your smile! If you enjoyed your visit, we'd greatly appreciate a review on Yelp. Your feedback helps others find quality dental care and supports our practice. If you have any questions, please call {{clinic_phone}}. 🦷😊

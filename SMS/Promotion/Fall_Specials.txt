@@ -1,0 +1,4 @@
+Hi {{patient_name}}, 🍂🦷
+Fall into savings with our seasonal specials at {{clinic_name}}! Now is the perfect time to refresh your smile and take advantage of our limited-time offers. To learn more or schedule your appointment, call {{clinic_phone}} today. 💙✨
+
+Contact us for offer details and availability.

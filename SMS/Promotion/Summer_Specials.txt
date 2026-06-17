@@ -1,0 +1,4 @@
+Hi {{patient_name}}, ☀️🦷
+Make your smile shine this summer with our Summer Specials at {{clinic_name}}! Take advantage of seasonal savings and keep your smile healthy and bright all season long. To learn more or schedule your appointment, call {{clinic_phone}} today. 💙✨
+
+Contact us for offer details and availability.

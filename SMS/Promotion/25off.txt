@@ -1,0 +1,4 @@
+Hi {{patient_name}}, 🎉🦷
+Enjoy 25% OFF on any one treatment at {{clinic_name}}! It's a great opportunity to get the dental care you need while saving on your smile. To schedule your appointment and take advantage of this special offer, call {{clinic_phone}} today. 💙😊
+
+Offer valid for one treatment only. Contact us for details.

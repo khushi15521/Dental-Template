@@ -1,0 +1,4 @@
+Hi {{patient_name}}, 🎉🦷
+Enjoy $50 OFF on any service of $250 or more at {{clinic_name}}! It's the perfect time to invest in your smile and save on the dental care you need. To schedule your appointment and claim this special offer, call {{clinic_phone}} today. 💙✨
+
+Offer valid for qualifying services only. Contact us for details.

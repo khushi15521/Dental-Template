@@ -1,0 +1,2 @@
+Hi {{patient_name}}, ❤️🌹
+Happy Valentine’s Day from {{clinic_name}}! Wishing you a day filled with love, happiness, and plenty of reasons to smile. Thank you for being a valued part of our dental family. Have a wonderful Valentine's Day! 🦷💖✨
