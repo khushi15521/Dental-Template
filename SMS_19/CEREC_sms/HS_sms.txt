@@ -1,0 +1,6 @@
+Hi {{patient_name}}! At {{clinic_name}}, we know your smile is your greatest confidence. 
+
+✨ Healthy & Beautiful
+✨ Achievable in a single visit!
+
+Call {{clinic_phone}} to book your appointment and let your true smile shine.

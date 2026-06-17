@@ -1,0 +1,8 @@
+Hi {{patient_name}},
+
+Your time is valuable. 
+Your smile is essential. 
+
+Experience our advanced same-day crown technology at {{clinic_name}}. Exceptional dentistry in just ONE visit!
+
+Call {{clinic_phone}} to schedule your appointment.

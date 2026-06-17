@@ -1,0 +1,5 @@
+Hi {{patient_name}}! Keep more of what nature gave you. 🌿
+
+At {{clinic_name}}, our restorative inlays and onlays gently protect and preserve your natural tooth structure. 
+
+Call {{clinic_phone}} to schedule your consultation and restore your beautiful, natural smile!

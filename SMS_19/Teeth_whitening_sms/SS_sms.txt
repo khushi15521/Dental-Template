@@ -1,0 +1,5 @@
+Get ready to be sensational, {{patient_name}}! 📸
+
+Walk into {{clinic_name}} on your lunch break and walk out just 20 minutes later with a breathtaking, red-carpet-ready smile. 
+
+Call {{clinic_phone}} to book your fast & comfortable Sinsational Smile treatment today!

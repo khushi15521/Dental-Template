@@ -1,0 +1,6 @@
+The kind of smile that stops traffic. 💫
+
+Hi {{patient_name}}, forget the artificial look and embrace your authentic beauty. 
+At {{clinic_name}}, LUMIBRITE delivers a naturally radiant, undeniably classy smile with zero hassle and total comfort.
+
+Call {{clinic_phone}} to reserve your one-hour session!
