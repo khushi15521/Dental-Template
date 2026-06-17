@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exclusive VIP Deal</title>
+    <!-- Luxury Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Montserrat:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <style>
+        /* FASCINATING ANIMATIONS */
+        @keyframes aurora {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+        @keyframes glow {
+            0% {
+                box-shadow: 0 0 15px rgba(212, 175, 55, 0.15);
+            }
+
+            50% {
+                box-shadow: 0 0 35px rgba(212, 175, 55, 0.4);
+            }
+
+            100% {
+                box-shadow: 0 0 15px rgba(212, 175, 55, 0.15);
+            }
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            color: #1E293B;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            /* Animated Light Pearl Background */
+            background: linear-gradient(-45deg, #FAF7F2, #FFFFFF, #F4F1EA, #FDFBF7);
+            background-size: 400% 400%;
+            animation: aurora 15s ease infinite;
+        }
+
+        /* GLASSMORPHIC LIGHT LUXURY CARD */
+        .vip-card {
+            width: 100%;
+            max-width: 600px;
+            margin: 40px 20px;
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(25px);
+            -webkit-backdrop-filter: blur(25px);
+            border: 1px solid rgba(255, 255, 255, 1);
+            border-radius: 24px;
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.08), 0 10px 20px rgba(212, 175, 55, 0.05);
+            overflow: hidden;
+            animation: float 6s ease-in-out infinite;
+            position: relative;
+        }
+
+        /* GOLDEN ACCENT LINE */
+        .vip-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, #D4AF37, transparent);
+            z-index: 20;
+        }
+
+        /* CINEMATIC HERO IMAGE */
+        .hero-container {
+            position: relative;
+            height: 380px;
+            overflow: hidden;
+        }
+
+        .hero-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center 30%;
+            opacity: 0.95;
+            transition: transform 1.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 1s ease;
+        }
+
+        .vip-card:hover .hero-container img {
+            transform: scale(1.08);
+            opacity: 1;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            /* Fades to solid white at bottom to blend seamlessly with the card */
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 1) 100%);
+        }
+
+        .exclusive-badge {
+            position: absolute;
+            top: 35px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(255, 255, 255, 0.95);
+            border: 1px solid #D4AF37;
+            color: #AA771C;
+            padding: 8px 25px;
+            border-radius: 30px;
+            font-size: 11px;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        /* TYPOGRAPHY & CONTENT */
+        .content {
+            padding: 0 50px 60px 50px;
+            text-align: center;
+            position: relative;
+            z-index: 10;
+            margin-top: -60px;
+        }
+
+        h1 {
+            font-family: 'Cinzel', serif;
+            font-size: 44px;
+            margin: 0 0 20px 0;
+            font-weight: 700;
+            color: #0F172A;
+            line-height: 1.1;
+        }
+
+        /* Gold foil text effect */
+        h1 span {
+            background: linear-gradient(to right, #C59F4A, #EAD787, #B38728, #EAD787, #AA771C);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.9;
+            color: #64748B;
+            margin: 0 0 45px 0;
+            font-weight: 400;
+        }
+
+        p strong {
+            color: #0F172A;
+            font-weight: 700;
+        }
+
+        /* GLOWING METALLIC CTA */
+        /* .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #BF953F, #AA771C);
+            color: #FFFFFF;
+            text-decoration: none;
+            padding: 22px 60px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 15px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            border-radius: 50px;
+            transition: all 0.4s ease;
+            animation: glow 3s infinite;
+            position: relative;
+            overflow: hidden;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+        } */
+
+        /* Shimmer Effect */
+        /* .cta-button::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 50%;
+            height: 100%;
+            background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.6), transparent);
+            transform: skewX(-20deg);
+            transition: all 0.6s ease;
+        }
+
+        .cta-button:hover::after {
+            left: 150%;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px rgba(212, 175, 55, 0.3);
+            background: linear-gradient(135deg, #D4AF37, #BF953F);
+        } */
+
+        @media screen and (max-width: 600px) {
+            body {
+                padding: 20px;
+                align-items: flex-start;
+            }
+
+            .vip-card {
+                margin: 0;
+            }
+
+            .hero-container {
+                height: 300px;
+            }
+
+            .content {
+                padding: 0 25px 40px 25px;
+                margin-top: -40px;
+            }
+
+            h1 {
+                font-size: 34px;
+            }
+
+            .cta-button {
+                padding: 20px 40px;
+                font-size: 13px;
+                width: 100%;
+                box-sizing: border-box;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="vip-card">
+
+        <div class="hero-container">
+            <!-- Full color, high-end smile image -->
+            <img src="https://images.unsplash.com/photo-1567516364473-233c4b6fcfbe?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Beautiful Smile">
+            <div class="hero-overlay"></div>
+            <div class="exclusive-badge">VIP Access</div>
+        </div>
+
+        <div class="content">
+            <h1><span>Unlock</span><br>Your Radiance</h1>
+
+            <p>Hey <strong>{{patient_name}}</strong>! Want a quick and easy way to put some brilliance back into your
+                smile? <strong>{{clinic_name}}</strong> may have just the ticket! Our custom take-home whitening kits
+                give you the professional results you want in the comfort of your own home.</p>
+
+            <a href="tel:{{clinic_phone}}" class="cta-button">Claim The Deal</a>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+Hi {{patient_name}}, get a WOW-WHITE smile at {{clinic_name}} with KöR Whitening! 
+
+✓ Permanent Results
+✓ Low Sensitivity
+✓ Tackles the toughest stains
+
+Call {{clinic_phone}} to schedule your consultation today.

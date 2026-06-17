@@ -1,0 +1,8 @@
+Brilliant. Instantly. ✨
+
+Hi {{patient_name}}! Zoom Whitening at {{clinic_name}} delivers:
+✔️ 8 Shades Whiter
+✔️ 45 Minutes
+✔️ 1 Visit
+
+Ready to dramatically transform your smile? Call {{clinic_phone}} to book your session!

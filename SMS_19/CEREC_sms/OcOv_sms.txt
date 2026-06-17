@@ -1,0 +1,5 @@
+Busy schedule, {{patient_name}}? ⏱️
+
+Your time matters. At {{clinic_name}}, we custom-craft your beautiful new crown in just ONE single visit. No waiting. No temporaries. 
+
+Call {{clinic_phone}} to schedule your same-day crown!

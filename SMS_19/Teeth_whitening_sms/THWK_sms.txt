@@ -1,0 +1,7 @@
+[ VIP INVITATION ]
+
+Hi {{patient_name}}, unlock your radiance from the comfort of your own home! 🏡
+
+{{clinic_name}} is offering you exclusive VIP access to our custom Take-Home Whitening Kits. Get professional brilliance on your own time. 
+
+Call {{clinic_phone}} to claim your VIP deal today.

@@ -1,0 +1,5 @@
+Hi {{patient_name}}, ready for a flawless smile? ✨
+
+Get a perfect, permanent crown in just ONE visit at {{clinic_name}}. No temporaries, no waiting.
+
+Call {{clinic_phone}} to book your premium CEREC experience today!

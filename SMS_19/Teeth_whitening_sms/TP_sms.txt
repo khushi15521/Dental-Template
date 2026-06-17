@@ -1,0 +1,5 @@
+Did you know you can redefine your smile in just 5 minutes a day? ✨
+
+Hi {{patient_name}}, the revolutionary Tanda Pearl Ionic Whitening System is now available at {{clinic_name}}. Whiten your top and bottom teeth simultaneously with zero sensitivity!
+
+Call {{clinic_phone}} to ask about Tanda Pearl today.

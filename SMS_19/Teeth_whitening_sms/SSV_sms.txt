@@ -1,0 +1,5 @@
+Fall in love with your smile! ❤️
+
+Hi {{patient_name}}, treat yourself (or someone special) to a naturally bright smile just in time for Valentine's Day. With Sinsational Smile at {{clinic_name}}, you’re only 20 minutes away from beautiful, lasting results!
+
+Call {{clinic_phone}} to claim your Valentine's Day Special!

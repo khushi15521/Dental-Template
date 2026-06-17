@@ -1,0 +1,7 @@
+3 reasons to love professional Boost Whitening at {{clinic_name}}:
+
+1️⃣ Brighter: Lifts years of deep stains safely.
+2️⃣ Faster: See stunning results in just one visit!
+3️⃣ Confident: Love showing off your smile every day.
+
+Ready for a change, {{patient_name}}? Call {{clinic_phone}} to book your session!

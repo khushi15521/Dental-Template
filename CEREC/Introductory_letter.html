@@ -1,107 +1,159 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advancing Your Care</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Advancing Your Care</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<style>
+    body {
+        margin: 0; 
+        padding: 0; 
+        background-color: #F4F7F6; 
+        font-family: 'Lato', sans-serif; 
+        color: #333333;
+    }
+    
+    .email-container { 
+        max-width: 600px; 
+        margin: 20px auto; 
+        background-color: #FFFFFF; 
+        box-shadow: 0 15px 40px rgba(0,0,0,0.06); 
+    }
+    
+    .hero-image { 
+        width: 100%; 
+        height: 380px; 
+        object-fit: cover; 
+        object-position: center 25%; 
+        display: block; 
+    }
+    
+    .header { 
+        padding: 35px 30px; 
+        text-align: center; 
+        background-color: #2C3E50; 
+        color: #FFFFFF; 
+    }
+    
+    .header h2 { 
+        font-family: 'Playfair Display', serif; 
+        margin: 0; 
+        font-size: 26px; 
+        font-weight: 400; 
+        letter-spacing: 2px; 
+        text-transform: uppercase;
+    }
+    
+    .header p { 
+        margin: 8px 0 0 0; 
+        color: #D4AF37; 
+        font-size: 12px; 
+        letter-spacing: 3px; 
+        text-transform: uppercase; 
+    }
+    
+    .content { 
+        padding: 50px 50px; 
+        text-align: left; 
+    }
+    
+    .content h1 { 
+        font-family: 'Playfair Display', serif; 
+        font-size: 34px; 
+        color: #2C3E50; 
+        margin: 0 0 30px 0; 
+        font-weight: 400; 
+        text-align: center; 
+    }
+    
+    .content h1 i { 
+        color: #D4AF37; 
+    }
+    
+    .content p { 
+        font-size: 16px; 
+        line-height: 1.8; 
+        color: #555555; 
+        margin: 0 0 20px 0; 
+    }
+    
+    .signature { 
+        margin-top: 50px; 
+        border-top: 1px solid #EEEEEE; 
+        padding-top: 30px; 
+        text-align: center; 
+    }
+    
+    .signature p {
+        margin: 0 0 5px 0;
+        color: #888888;
+        font-style: italic;
+    }
+
+    .signature p.name { 
+        font-family: 'Playfair Display', serif; 
+        font-size: 22px; 
+        color: #2C3E50; 
+        font-style: normal;
+    }
+    
+    .footer { 
+        padding: 30px; 
+        text-align: center; 
+        background-color: #F4F7F6; 
+        font-size: 11px; 
+        color: #888888; 
+        line-height: 1.6;
+    }
+    
+    .footer a { 
+        color: #2C3E50; 
+        text-decoration: none; 
+        border-bottom: 1px solid #CCCCCC; 
+    }
+
+    @media screen and (max-width: 600px) {
+        .email-container { margin: 0; box-shadow: none; }
+        .hero-image { height: 250px; }
+        .content { padding: 40px 30px; }
+    }
+</style>
 </head>
-
-<body style="margin:0;padding:0;background-color:#F5F4F0;">
-    <table width="100%" cellpadding="0" cellspacing="0"
-        style="background-color:#F5F4F0;padding:50px 0;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;">
-        <tr>
-            <td align="center">
-
-                <!-- MAIN EMAIL CONTAINER -->
-                <table width="600" cellpadding="0" cellspacing="0"
-                    style="background-color:#ffffff;border:1px solid #E5E0D8;box-shadow:0 20px 40px rgba(0,0,0,0.04);">
-
-                    <!-- SECTION 1: HEADER (CLASSIC & CHIC) -->
-                    <tr>
-                        <td align="center" style="padding:55px 40px 35px 40px;background-color:#ffffff;">
-                            <h2
-                                style="margin:0 0 8px;color:#1A1A1A;font-size:24px;font-family:'Didot',Georgia,serif;font-weight:normal;letter-spacing:2px;text-transform:uppercase;">
-                                {{clinic_name}}
-                            </h2>
-                            <p style="margin:0;color:#C5A880;font-size:12px;font-weight:normal;letter-spacing:3px;">
-                                {{clinic_phone}}
-                            </p>
-                            <div style="width:40px;height:1px;background-color:#C5A880;margin:35px auto 0 auto;"></div>
-                        </td>
-                    </tr>
-
-                    <!-- SECTION 2: THE LETTER -->
-                    <tr>
-                        <td align="left" style="padding:10px 60px 40px 60px;background-color:#ffffff;">
-                            <h1
-                                style="margin:0 0 35px;color:#1A1A1A;font-size:26px;font-family:'Didot',Georgia,serif;font-weight:normal;line-height:1.3;letter-spacing:1px;text-align:center;">
-                                Advancing Your Care
-                            </h1>
-                            <p style="margin:0 0 22px;color:#4A4A4A;font-size:15px;line-height:1.9;">
-                                Dear {{patient_name}},
-                            </p>
-                            <p style="margin:0 0 22px;color:#4A4A4A;font-size:15px;line-height:1.9;">
-                                At {{clinic_name}}, our goal has always been to provide exceptional care while making
-                                every visit as comfortable as possible. That is why we are excited to introduce advanced
-                                CEREC technology to our practice.
-                            </p>
-                            <p style="margin:0 0 22px;color:#4A4A4A;font-size:15px;line-height:1.9;">
-                                This innovation allows many restorations to be completed with greater convenience,
-                                precision, and comfort than traditional methods&mdash;often in a single visit without
-                                the need for traditional impressions.
-                            </p>
-                            <p style="margin:0 0 40px;color:#4A4A4A;font-size:15px;line-height:1.9;">
-                                Most importantly, it helps us continue delivering the high-quality, personalized care
-                                you deserve.
-                            </p>
-                            <p style="margin:0 0 8px;color:#4A4A4A;font-size:15px;line-height:1.9;font-style:italic;">
-                                Warm regards,
-                            </p>
-                            <p
-                                style="margin:0;color:#1A1A1A;font-size:16px;font-family:'Didot',Georgia,serif;letter-spacing:1px;">
-                                The {{clinic_name}} Team
-                            </p>
-                        </td>
-                    </tr>
-
-                    <!-- SECTION 3: CTA
-                    <tr>
-                        <td align="center" style="padding:0 40px 70px 40px;background-color:#ffffff;">
-                            <a href="{{clinic_website}}" target="_blank"
-                                style="background-color:#1A1A1A;color:#ffffff;padding:18px 45px;text-decoration:none;font-size:12px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;letter-spacing:2px;text-transform:uppercase;border-radius:2px;display:inline-block;border:1px solid #1A1A1A;">
-                                Discover Your Options
-                            </a>
-                        </td>
-                    </tr> -->
-
-                    <!-- SECTION 4: FOOTER -->
-                    <tr>
-                        <td align="center" style="background-color:#1A1A1A;padding:50px 30px;">
-                            <h3
-                                style="margin:0 0 20px;color:#C5A880;font-size:16px;font-family:'Didot',Georgia,serif;font-weight:normal;letter-spacing:2px;text-transform:uppercase;">
-                                {{clinic_name}}
-                            </h3>
-                            <p
-                                style="margin:0 0 10px;color:#888888;font-size:11px;letter-spacing:2px;text-transform:uppercase;">
-                                {{clinic_address}}
-                            </p>
-                            <p style="margin:0 0 30px;font-size:11px;">
-                                <a href="{{clinic_website}}"
-                                    style="color:#888888;text-decoration:none;letter-spacing:1px;">{{clinic_website}}</a>
-                            </p>
-                            <div style="width:30px;height:1px;background-color:#333333;margin:0 auto 20px auto;"></div>
-                            <p
-                                style="margin:0;color:#555555;font-size:10px;letter-spacing:1px;text-transform:uppercase;">
-                                &copy; {{year}} {{clinic_name}}. All Rights Reserved.
-                            </p>
-                        </td>
-                    </tr>
-
-                </table>
-            </td>
-        </tr>
-    </table>
+<body>
+    <div class="email-container">
+        <!-- PREMIUM HEADER -->
+        <div class="header">
+            <h2>{{clinic_name}}</h2>
+            <p>{{clinic_phone}}</p>
+        </div>
+        
+        <!-- STUNNING HERO IMAGE -->
+        <img class="hero-image" src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?q=80&w=800&auto=format&fit=crop" alt="Advanced Dental Care">
+        
+        <!-- LETTER CONTENT -->
+        <div class="content">
+            <h1>Advancing <i>Your Care</i></h1>
+            
+            <p>Dear {{patient_name}},</p>
+            
+            <p>At {{clinic_name}}, our ultimate goal has always been to provide exceptional dental care while making every visit as comfortable and convenient as possible for you. That is why we are incredibly proud to introduce advanced <strong>CEREC technology</strong> to our practice.</p>
+            
+            <p>This state-of-the-art innovation allows many dental restorations to be completed with greater precision, durability, and comfort than ever before. With CEREC, we can often design, create, and place your custom crown in a <strong>single visit</strong>—completely eliminating the need for traditional messy impressions or temporary crowns.</p>
+            
+            <p>Most importantly, it helps us continue delivering the high-quality, personalized care you deserve without interrupting your busy life.</p>
+            
+            <div class="signature">
+                <p>Warm regards,</p>
+                <p class="name">The {{clinic_name}} Team</p>
+            </div>
+        </div>
+        
+        <!-- FOOTER -->
+        <div class="footer">
+            <p><strong>{{clinic_name}}</strong><br>{{clinic_address}}</p>
+            <p>&copy; {{year}} {{clinic_name}}. All Rights Reserved.</p>
+        </div>
+    </div>
 </body>
-
 </html>

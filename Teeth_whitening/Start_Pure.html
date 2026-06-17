@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Pure - Attention Catcher</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Playfair+Display:ital@0;1&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 40px 20px;
+            background-color: #E2E8F0;
+            font-family: 'Montserrat', sans-serif;
+            color: #334155;
+        }
+
+        .wrapper {
+            max-width: 650px;
+            margin: 0 auto;
+            background-color: #FFFFFF;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            overflow: hidden;
+            border-radius: 16px;
+        }
+
+        /* SECTION 1: MASSIVE BOLD HERO */
+        .hero {
+            background-color: #0F766E;
+            /* Deep Teal */
+            padding: 40px 40px 80px 40px;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            font-size: 52px;
+            color: #FFFFFF;
+            line-height: 1.05;
+            margin: 0 0 15px 0;
+            text-transform: uppercase;
+            letter-spacing: -2px;
+        }
+
+        .hero h1 span {
+            color: #FDE047;
+            /* Bright Yellow */
+        }
+
+        .hero p {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-style: italic;
+            color: #CCFBF1;
+            margin: 0;
+        }
+
+        /* SECTION 2: IMAGE BREAKING THE BOUNDARY */
+        .image-overlap {
+            margin-top: -70px;
+            padding: 0 40px;
+            position: relative;
+            z-index: 10;
+        }
+
+        .image-overlap img {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 16px;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+            display: block;
+            border: 4px solid #FFFFFF;
+        }
+
+        /* SECTION 3: THE MESSAGE */
+        .message {
+            padding: 24px 40px;
+        }
+
+        .message h2 {
+            font-size: 20px;
+            color: #0F766E;
+            margin: 0 0 20px 0;
+            font-weight: 700;
+        }
+
+        .message p {
+            font-size: 16px;
+            line-height: 1.8;
+            margin: 0 0 20px 0;
+            color: #475569;
+        }
+
+        /* SECTION 4: HIGH-CONTRAST TECH BLOCK */
+        .tech-block {
+            background-color: #1E293B;
+            /* Slate Dark */
+            color: #FFFFFF;
+            padding: 32px 40px;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .tech-icon {
+            flex-shrink: 0;
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(135deg, #0F766E, #14B8A6);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 900;
+            font-size: 32px;
+            box-shadow: 0 0 25px rgba(20, 184, 166, 0.5);
+        }
+
+        .tech-content h3 {
+            margin: 0 0 10px 0;
+            font-size: 22px;
+            color: #FDE047;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .tech-content p {
+            margin: 0;
+            font-size: 15px;
+            line-height: 1.7;
+            color: #CBD5E1;
+        }
+
+        /* SECTION 5: CREATIVE TICKET COUPON */
+        .coupon-wrapper {
+            padding: 32px 40px;
+            background-color: #F0FDFA;
+            /* Extremely pale teal */
+            text-align: center;
+        }
+
+        .coupon-intro {
+            font-size: 18px;
+            font-weight: 700;
+            color: #0F766E;
+            margin-bottom: 25px;
+            line-height: 1.5;
+        }
+
+        /* CSS Magic: Punched out ticket shape */
+        .ticket {
+            background-color: #FFFFFF;
+            border-top: 4px dashed #14B8A6;
+            border-bottom: 4px dashed #14B8A6;
+            background-image:
+                radial-gradient(circle at left, #F0FDFA 15px, #FFFFFF 16px),
+                radial-gradient(circle at right, #F0FDFA 15px, #FFFFFF 16px);
+            background-size: 51% 100%;
+            background-position: left, right;
+            background-repeat: no-repeat;
+            padding: 24px 30px;
+            position: relative;
+            filter: drop-shadow(0 15px 15px rgba(20, 184, 166, 0.15));
+        }
+
+        .ticket h4 {
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: #94A3B8;
+            margin: 0 0 10px 0;
+        }
+
+        .ticket h2 {
+            font-weight: 900;
+            font-size: 42px;
+            color: #0F766E;
+            margin: 0 0 15px 0;
+            line-height: 1;
+        }
+
+        .ticket .expires {
+            display: inline-block;
+            background-color: #FDE047;
+            color: #854D0E;
+            padding: 6px 18px;
+            border-radius: 20px;
+            font-weight: 900;
+            font-size: 13px;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .ticket p {
+            font-size: 14px;
+            color: #64748B;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0 20px;
+        }
+
+        /* FULL WIDTH CTA BUTTON */
+        .cta {
+            display: block;
+            width: 100%;
+            text-align: center;
+            background-color: #0F766E;
+            color: #FFFFFF;
+            text-decoration: none;
+            padding: 20px 0;
+            font-size: 22px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: background-color 0.3s;
+        }
+
+        .cta:hover {
+            background-color: #115E59;
+        }
+
+        @media screen and (max-width: 600px) {
+            .hero {
+                padding: 40px 20px 90px 20px;
+            }
+
+            .hero h1 {
+                font-size: 38px;
+            }
+
+            .image-overlap {
+                padding: 0 20px;
+            }
+
+            .image-overlap img {
+                height: 250px;
+            }
+
+            .message {
+                padding: 30px 20px;
+            }
+
+            .tech-block {
+                flex-direction: column;
+                text-align: center;
+                padding: 30px 20px;
+            }
+
+            .coupon-wrapper {
+                padding: 30px 20px;
+            }
+
+            .ticket h2 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <!-- MASSIVE HOOK HEADER -->
+        <div class="hero">
+            <h1>20 Minutes To<br><span>Pure</span> Confidence</h1>
+            <p>Start Pure&reg; Professional Whitening</p>
+        </div>
+
+        <!-- IMAGE BREAKING THE LAYOUT BOUNDARY -->
+        <div class="image-overlap">
+            <img src="https://images.unsplash.com/photo-1543871595-e11129e271cc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Start Pure Radiant Smile">
+        </div>
+
+        <!-- CLEAN MESSAGE SECTION -->
+        <div class="message">
+            <h2>Dear {{patient_name}},</h2>
+            <p>We are excited to announce that {{clinic_name}} now offers the revolutionary tooth whitening system from
+                Start Pure&reg;. This simple, 20-minute treatment can take years off your appearance by making your
+                teeth 2-8 shades whiter &mdash; all during your routine hygiene visit.</p>
+        </div>
+
+        <!-- HIGH CONTRAST TECH BLOCK -->
+        <div class="tech-block">
+            <div class="tech-icon">&#9889;</div> <!-- Lightning bolt emoji for speed/tech -->
+            <div class="tech-content">
+                <h3>Super Violet&trade; LED</h3>
+                <p>Start Pure&reg; is the only product on the market to use the Super Violet&trade; LED technology,
+                    providing the best results in the shortest amount of time. Users experience far less sensitivity
+                    compared to other leading brands, due to a patented desensitizing detergent that prevents
+                    dehydration of tooth enamel.</p>
+            </div>
+        </div>
+
+        <!-- CREATIVE TICKET COUPON -->
+        <div class="coupon-wrapper">
+            <div class="coupon-intro">
+                Curious if Start Pure is right for you? For a limited time, we're offering a promotional rate on Start
+                Pure when combined with your next cleaning.
+            </div>
+
+            <div class="ticket">
+                <h4>Savings Certificate</h4>
+                <h2>$XXX OFF START PURE</h2>
+                <div class="expires">Expires: {{expiration_date}}</div>
+                <p>Use this savings certificate to receive a $XXX Start Pure Whitening. The promotional rate only
+                    applies when done during your routine hygiene appointment.</p>
+            </div>
+        </div>
+
+        <!-- FULL WIDTH CTA -->
+        <!--
+        <a href="tel:{{clinic_phone}}" class="cta">
+            Call to claim offer &rarr;
+        </a>
+        -->
+
+    </div>
+
+</body>
+
+</html>

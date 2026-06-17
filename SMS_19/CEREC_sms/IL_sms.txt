@@ -1,0 +1,7 @@
+📢 Big News from {{clinic_name}}!
+
+Hi {{patient_name}}, we are upgrading your care! We’ve just introduced advanced CEREC technology to our practice. 
+
+What does this mean for you? Custom, permanent crowns in a SINGLE visit. No messy impressions, and no temporary crowns!
+
+Call {{clinic_phone}} to experience the future of dentistry today.

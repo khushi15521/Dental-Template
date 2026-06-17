@@ -1,0 +1,5 @@
+Hi {{patient_name}}! Want dramatic whitening results without the hassle of strips or trays? 
+
+At {{clinic_name}}, our advanced Laser Whitening system delivers a naturally brilliant smile in just ONE hour. 
+
+Call {{clinic_phone}} to schedule your one-hour transformation!
