@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanda Pearl Campaign</title>
+    <!-- Elegant Campaign Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #EAEAEA;
+            font-family: 'Lato', sans-serif;
+            color: #333333;
+        }
+
+        .email-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #FFFFFF;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        /* COMPACT CAMPAIGN HERO */
+        .hero-section {
+            position: relative;
+            background-image: url('https://plus.unsplash.com/premium_photo-1682097288491-7e926a30cd0b?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover;
+            background-position: center 25%;
+            height: 380px;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+            padding: 80px 30px 30px 30px;
+            text-align: center;
+        }
+
+        .hero-text h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            color: #FFFFFF;
+            margin: 0 0 8px 0;
+            line-height: 1.1;
+            font-weight: 700;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .hero-text p {
+            font-size: 13px;
+            color: #D4AF37;
+            /* Gold Accent */
+            margin: 0;
+            font-weight: 700;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+        /* PUNCHY INTRO */
+        .intro-letter {
+            padding: 40px 40px 10px 40px;
+            text-align: center;
+        }
+
+        .intro-letter p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #475569;
+            margin: 0;
+            font-weight: 400;
+        }
+
+        /* 3-COLUMN FEATURE GRID FOR 10-SECOND SCANNABILITY */
+        .features-grid {
+            display: flex;
+            justify-content: space-between;
+            padding: 30px 30px 40px 30px;
+            text-align: center;
+        }
+
+        .feature-item {
+            flex: 1;
+            padding: 0 15px;
+        }
+
+        .feature-icon {
+            font-size: 32px;
+            margin-bottom: 15px;
+            display: inline-block;
+            color: #D4AF37;
+        }
+
+        .feature-item h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 18px;
+            color: #0F172A;
+            margin: 0 0 10px 0;
+        }
+
+        .feature-item p {
+            font-size: 13px;
+            line-height: 1.5;
+            color: #64748B;
+            margin: 0;
+        }
+
+        /* IMMEDIATE CTA */
+        .cta-section {
+            background-color: #0F172A;
+            /* Deep Navy */
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #D4AF37;
+            color: #000000;
+            text-decoration: none;
+            padding: 16px 40px;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #F1C40F;
+        }
+
+        /* MINIMAL FOOTER */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background-color: #F1F5F9;
+            font-size: 11px;
+            color: #94A3B8;
+        }
+
+        .footer a {
+            color: #64748B;
+            text-decoration: none;
+            border-bottom: 1px solid #CBD5E1;
+        }
+
+        @media screen and (max-width: 600px) {
+            .email-container {
+                margin: 0;
+            }
+
+            .features-grid {
+                flex-direction: column;
+            }
+
+            .feature-item {
+                margin-bottom: 30px;
+            }
+
+            .feature-item:last-child {
+                margin-bottom: 0;
+            }
+
+            .hero-section {
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="email-container">
+
+        <!-- COMPACT IMPACT HERO -->
+        <div class="hero-section">
+            <div class="hero-overlay">
+                <div class="hero-text">
+                    <p>The Tanda Pearl Collection</p>
+                    <h1>Radiance, Redefined.</h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- PUNCHY 2-SENTENCE INTRO -->
+        <div class="intro-letter">
+            <p><strong>Hi {{patient_name}}!</strong> Looking for a dramatically brighter smile without the wait? We are
+                thrilled to introduce the revolutionary <strong>Tanda Pearl Ionic Whitening System</strong> to our
+                practice.</p>
+        </div>
+
+        <!-- HIGHLY SCANNABLE 3-COLUMN FEATURES -->
+        <div class="features-grid">
+            <div class="feature-item">
+                <span class="feature-icon">&#9201;&#65039;</span>
+                <h3>5 Minutes a Day</h3>
+                <p>Advanced ionic technology provides visibly whiter teeth in a fraction of the time.</p>
+            </div>
+
+            <div class="feature-item">
+                <span class="feature-icon">&#128524;</span>
+                <h3>Zero Sensitivity</h3>
+                <p>Enamel-safe gel meticulously designed to eliminate sharp sensitivity and discomfort.</p>
+            </div>
+
+            <div class="feature-item">
+                <span class="feature-icon">&#129463;</span>
+                <h3>Double Tray</h3>
+                <p>Perfectly whiten both your upper and lower teeth simultaneously.</p>
+            </div>
+        </div>
+
+        <!-- QUICK CTA -->
+        <!-- <!-- <div class="cta-section">
+            <a href="tel:{{clinic_phone}}" class="btn">Ask Us About Tanda Pearl</a>
+        </div> --> -->
+
+        <!-- MINIMAL FOOTER -->
+        <div class="footer">
+            <p>{{clinic_name}} | {{clinic_address}} | <a href="{{clinic_website}}">Website</a></p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
