@@ -1,0 +1,2 @@
+Hi {{patient_name}}, 🎄✨
+Merry Christmas from {{clinic_name}}! Wishing you and your loved ones a joyful holiday filled with laughter, warmth, and bright smiles. Thank you for being part of our dental family. Have a wonderful Christmas and a happy holiday season! 🦷💙🎁🎅🏻

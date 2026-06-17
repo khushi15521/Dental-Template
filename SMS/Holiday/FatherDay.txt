@@ -1,0 +1,2 @@
+Hi {{patient_name}}, 👨‍👧‍👦💙
+Happy Father's Day from {{clinic_name}}! Today, we celebrate all the amazing dads who keep their families smiling. Wishing you a wonderful day filled with happiness, love, and plenty of reasons to smile! 😊🦷

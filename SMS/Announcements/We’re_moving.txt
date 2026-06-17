@@ -1,0 +1,2 @@
+Hi {{patient_name}}, 📍✨
+Exciting news from {{clinic_name}}! We're moving to a new location to better serve you. If you have any questions or would like to schedule an appointment, please call us at {{clinic_phone}}. We look forward to welcoming you to our new office soon! 🦷💙

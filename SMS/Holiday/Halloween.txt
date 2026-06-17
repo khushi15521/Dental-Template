@@ -1,0 +1,2 @@
+Hi {{patient_name}}, 🎃👻
+Happy Halloween from {{clinic_name}}! We hope your day is filled with fun, treats, and plenty of smiles. Don't forget to take care of your teeth after enjoying those spooky sweets! 🦷🍬 Have a safe and happy Halloween! ✨🧡

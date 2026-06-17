@@ -1,0 +1,2 @@
+Hi {{patient_name}}, ⭐🦷
+Thank you for choosing {{clinic_name}}! If you've had a great experience with our team, we'd love to hear from you. Please take a moment to leave us a review on Google—your feedback helps us serve our patients even better. For any questions, call {{clinic_phone}}. 💙😊

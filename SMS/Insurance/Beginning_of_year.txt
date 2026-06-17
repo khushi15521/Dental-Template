@@ -1,0 +1,2 @@
+Hi {{patient_name}}, 💙🦷
+A new year is the perfect time to make the most of your dental insurance benefits! At {{clinic_name}}, we're here to help you start the year with a healthy smile. To schedule your appointment or learn more, call us at {{clinic_phone}}. 😊✨

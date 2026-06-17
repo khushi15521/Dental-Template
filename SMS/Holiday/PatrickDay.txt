@@ -1,0 +1,2 @@
+Hi {{patient_name}}, ☘️✨
+Happy St. Patrick’s Day from {{clinic_name}}! Wishing you a day filled with good luck, happiness, and plenty of reasons to smile. May your day be as bright and cheerful as your smile! 🦷💚😊🍀

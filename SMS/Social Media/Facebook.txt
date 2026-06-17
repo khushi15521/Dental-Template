@@ -1,0 +1,2 @@
+Hi {{patient_name}}, 📘✨
+Join {{clinic_name}} on Facebook! Stay up to date with dental tips, smile care advice, special offers, and the latest clinic news. For questions or appointments, call {{clinic_phone}}. We look forward to connecting with you! 💙🦷

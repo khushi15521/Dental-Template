@@ -1,0 +1,2 @@
+Hi {{patient_name}}, 💳🦷
+Have funds remaining in your Flexible Spending Account (FSA)? Don't let them go unused! Use your FSA benefits for eligible dental care at {{clinic_name}} before they expire. To schedule an appointment or learn more, call {{clinic_phone}}. We're here to help you make the most of your benefits! 💙😊

@@ -1,0 +1,3 @@
+Hi {{patient_name}}, 😊
+Great news from {{clinic_name}}! 🦷💻
+Teledentistry appointments are now available, making it easier than ever to connect with our dental team from the comfort of your home. To learn more or schedule a virtual consultation, call us at {{clinic_phone}}. We're here to help! 💙

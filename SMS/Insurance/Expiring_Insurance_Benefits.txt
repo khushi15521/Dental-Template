@@ -1,0 +1,2 @@
+Hi {{patient_name}}, ⏰🦷
+Don't let your dental insurance benefits go to waste! Many insurance plans reset at the end of the year, and unused benefits may expire. Contact {{clinic_name}} at {{clinic_phone}} to schedule your appointment and make the most of your coverage before it's gone. 💙😊
