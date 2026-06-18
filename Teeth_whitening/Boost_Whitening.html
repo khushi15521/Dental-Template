@@ -9,7 +9,6 @@
     <meta name="x-apple-disable-message-reformatting">
     <title>Boost Whitening</title>
     <style>
-        /* Client-specific Styles & Reset */
         body,
         table,
         td,
@@ -42,22 +41,9 @@
             margin: 0 !important;
             padding: 0 !important;
             width: 100% !important;
-            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-            color: #333333;
-            background-color: #F0F0F0;
+            background-color: #f5f0e5;
         }
 
-        /* iOS Blue Links */
-        a[x-apple-data-detectors] {
-            color: inherit !important;
-            text-decoration: none !important;
-            font-size: inherit !important;
-            font-family: inherit !important;
-            font-weight: inherit !important;
-            line-height: inherit !important;
-        }
-
-        /* Mobile Styles */
         @media screen and (max-width: 600px) {
             .email-container {
                 width: 100% !important;
@@ -77,160 +63,108 @@
             }
 
             .padding-mobile {
-                padding: 30px 20px !important;
+                padding: 40px 20px !important;
             }
         }
     </style>
 </head>
 
-<body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: #F0F0F0;">
-    <center style="width: 100%; background-color: #F0F0F0;">
-        <!-- Visually Hidden Preheader Text : BEGIN -->
-        <div
-            style="display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
-            A whiter smile in just one visit. Feel confident wherever life takes you.
-        </div>
-        <!-- Visually Hidden Preheader Text : END -->
+<body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: #F8F3E6;">
+    <center style="width: 100%; background-color: #83d1a111; padding: 40px 0;">
 
+        <!-- MAIN CONTAINER -->
         <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="600"
-            style="margin: auto; background-color: #FFFFFF;" class="email-container">
+            style="margin: auto; background-color: #81cea4; border: 1px solid #D4AF37;" class="email-container">
 
             <!-- HEADER -->
             <tr>
-                <td style="padding: 25px 40px; text-align: center; border-bottom: 1px solid #EAEAEA;">
-                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                        <tr>
-                            <td class="stack-column"
-                                style="font-size: 18px; font-weight: 600; color: #333333; text-align: left; text-transform: uppercase; letter-spacing: 1px;">
-                                {{clinic_name}}
-                            </td>
-                            <td class="stack-column"
-                                style="font-size: 14px; font-weight: 600; color: #353232; text-align: right; padding-top: 5px;">
-                                <a href="tel:{{clinic_phone}}"
-                                    style="color: #D97A7A; text-decoration: none;">{{clinic_phone}}</a>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-
-            <!-- HERO SECTION (Pastel Green) -->
-            <tr>
-                <td style="background-color: #EAF4E8; text-align: center;">
-                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
-                        <tr>
-                            <td style="padding: 40px 40px 30px 40px;">
-                                <h1
-                                    style="margin: 0 0 15px 0; font-size: 38px; line-height: 1.2; font-weight: 300; color: #2A5A3B;">
-                                    Smile Brighter.
-                                </h1>
-                                <p style="margin: 0; font-size: 16px; line-height: 1.6; color: #437A55;">
-                                    Experience the confidence that comes with a brighter, whiter smile. Our professional
-                                    Boost Whitening treatment provides immediate results in a safe, comfortable setting.
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="padding: 0;">
-                                <img src="https://images.unsplash.com/photo-1677026010083-78ec7f1b84ed?q=80&w=600&h=250&fit=crop&auto=format"
-                                    width="600" alt="Bright smile"
-                                    style="width: 100%; max-width: 600px; height: auto; display: block;" class="fluid">
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-
-            <!-- WHY CHOOSE CONTENT -->
-            <tr>
-                <td style="padding: 40px 40px; background-color: #FFFFFF; text-align: center;">
-                    <h2 style="margin: 0 0 15px 0; font-size: 24px; font-weight: 400; color: #333333;">
-                        Why Choose Professional Whitening?
-                    </h2>
+                <td style="padding: 40px 40px 30px 40px; text-align: center; background-color: #0A2B1E;">
                     <p
-                        style="margin: 0; font-size: 15px; line-height: 1.6; color: #666666; max-width: 500px; margin-left: auto; margin-right: auto;">
-                        Over-the-counter products can take weeks to show subtle changes and may cause sensitivity. Our
-                        in-office Boost Whitening treatment is designed to safely lift deep stains and brighten your
-                        smile noticeably in just one appointment, all supervised by dental professionals.
+                        style="margin: 0; font-size: 14px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; letter-spacing: 4px; color: #D4AF37; text-transform: uppercase;">
+                        {{clinic_name}}
                     </p>
                 </td>
             </tr>
 
-            <!-- THREE BENEFITS COLUMNS (Color Blocks) -->
+            <!-- HERO IMAGE (Editorial) -->
             <tr>
                 <td style="padding: 0;">
-                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                    <img src="https://images.unsplash.com/photo-1677026010083-78ec7f1b84ed?q=80&w=600&h=250&fit=crop&auto=format"
+                        width="600" alt="Bright smile"
+                        style="width: 100%; max-width: 600px; height: auto; display: block;" class="fluid">
+                </td>
+            </tr>
+
+            <!-- EDITORIAL TEXT -->
+            <tr>
+                <td style="padding: 60px 40px 40px 40px; text-align: center; background-color: #F6FBF8;">
+                    <h1
+                        style="margin: 0 0 20px 0; font-size: 36px; font-family: Georgia, Times, serif; font-weight: normal; color: #0A2B1E; line-height: 1.2;">
+                        The Ultimate<br>Enhancement.
+                    </h1>
+                    <p
+                        style="margin: 0 0 30px 0; font-size: 15px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.8; color: #555555; max-width: 450px; margin-left: auto; margin-right: auto;">
+                        Experience the confidence that comes with a flawlessly bright smile. <strong>Boost
+                            Whitening</strong> is our premium in-office treatment designed to safely lift deep stains
+                        and brighten your smile noticeably in just one luxurious appointment.
+                    </p>
+                    <div style="border-top: 1px solid #D4AF37; width: 40px; margin: 0 auto 40px auto;"></div>
+                </td>
+            </tr>
+
+            <!-- FEATURES / BENEFITS -->
+            <tr>
+                <td style="padding: 0 40px 50px 40px; background-color: #F6FBF8;">
+                    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
                         <tr>
-                            <!-- Column 1: Pastel Green -->
-                            <td class="stack-column" width="33.33%"
-                                style="background-color: #F1F8F1; padding: 40px 20px; text-align: center;" valign="top">
+                            <td class="stack-column" width="33.33%" style="padding: 15px; text-align: center;">
                                 <h3
-                                    style="margin: 0 0 10px 0; font-size: 15px; font-weight: 600; color: #2A5A3B; text-transform: uppercase; letter-spacing: 1px;">
+                                    style="margin: 0 0 8px 0; font-family: Georgia, serif; font-weight: normal; color: #0A2B1E; font-size: 18px;">
                                     Brighter</h3>
-                                <p style="margin: 0; font-size: 14px; line-height: 1.6; color: #538865;">Lift years of
-                                    staining gently and effectively.</p>
+                                <p
+                                    style="margin: 0; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px; color: #777777; line-height: 1.6;">
+                                    Lift years of staining gently and effectively.</p>
                             </td>
-                            <!-- Column 2: Pastel Yellow -->
-                            <td class="stack-column" width="33.33%"
-                                style="background-color: #FFFDF5; padding: 40px 20px; text-align: center;" valign="top">
+                            <td class="stack-column" width="33.33%" style="padding: 15px; text-align: center;">
                                 <h3
-                                    style="margin: 0 0 10px 0; font-size: 15px; font-weight: 600; color: #9A7525; text-transform: uppercase; letter-spacing: 1px;">
+                                    style="margin: 0 0 8px 0; font-family: Georgia, serif; font-weight: normal; color: #0A2B1E; font-size: 18px;">
                                     Faster</h3>
-                                <p style="margin: 0; font-size: 14px; line-height: 1.6; color: #B38F3D;">Save time with
-                                    our in-office professional whitening.</p>
+                                <p
+                                    style="margin: 0; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px; color: #777777; line-height: 1.6;">
+                                    Save time with our quick in-office session.</p>
                             </td>
-                            <!-- Column 3: Pastel Red -->
-                            <td class="stack-column" width="33.33%"
-                                style="background-color: #FDF0F0; padding: 40px 20px; text-align: center;" valign="top">
+                            <td class="stack-column" width="33.33%" style="padding: 15px; text-align: center;">
                                 <h3
-                                    style="margin: 0 0 10px 0; font-size: 15px; font-weight: 600; color: #A64444; text-transform: uppercase; letter-spacing: 1px;">
+                                    style="margin: 0 0 8px 0; font-family: Georgia, serif; font-weight: normal; color: #0A2B1E; font-size: 18px;">
                                     Confident</h3>
-                                <p style="margin: 0; font-size: 14px; line-height: 1.6; color: #C26666;">Love showing
-                                    off your smile every single day.</p>
+                                <p
+                                    style="margin: 0; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px; color: #777777; line-height: 1.6;">
+                                    Love showing off your smile every single day.</p>
                             </td>
                         </tr>
                     </table>
                 </td>
             </tr>
-
-            <!-- CTA SECTION (Pastel Red Accent) -->
-            <!-- <tr>
-                <td style="padding: 50px 40px; background-color: #FFFFFF; text-align: center;">
-                    <p style="margin: 0 0 20px 0; font-size: 18px; line-height: 1.5; color: #333333;">
-                        Ready to see the difference?
-                    </p>
-                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center"
-                        style="margin: auto;">
-                        <tr>
-                            <td style="background-color: #D97A7A; text-align: center;">
-                                <a href="{{clinic_website}}"
-                                    style="background-color: #D97A7A; border: 1px solid #D97A7A; font-size: 15px; font-weight: 600; letter-spacing: 1px; color: #FFFFFF; text-decoration: none; padding: 16px 35px; display: inline-block; text-transform: uppercase;">
-                                    Book Your Visit
-                                </a>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr> -->
 
             <!-- FOOTER -->
             <tr>
                 <td
-                    style="padding: 40px 40px; background-color: #F9F9F9; text-align: center; border-top: 1px solid #EEEEEE;">
-                    <p style="margin: 0 0 10px 0; font-size: 13px; color: #999999;">
+                    style="padding: 40px 40px; background-color: #0A2B1E; text-align: center; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+                    <p style="margin: 0 0 10px 0; font-size: 12px; color: #D4AF37; letter-spacing: 1px;">
                         {{clinic_address}}
                     </p>
-                    <p style="margin: 0 0 20px 0; font-size: 13px;">
+                    <p style="margin: 0 0 20px 0; font-size: 12px;">
                         <a href="{{clinic_website}}"
-                            style="color: #D97A7A; text-decoration: none;">{{clinic_website}}</a>
+                            style="color: #FFFFFF; text-decoration: none;">{{clinic_website}}</a>
                     </p>
-                    <p style="margin: 0; font-size: 12px; color: #BBBBBB;">
+                    <p style="margin: 0; font-size: 11px; color: #999999;">
                         &copy; {{year}} {{clinic_name}}. All rights reserved.
                     </p>
                 </td>
             </tr>
 
         </table>
+
     </center>
 </body>
 

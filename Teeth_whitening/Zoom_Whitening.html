@@ -13,8 +13,7 @@
         body {
             margin: 0;
             padding: 0;
-            background-color: #F4EFEA;
-            /* Soft warm cream/blush */
+            background-color: #FFFFFF;
             font-family: 'Inter', sans-serif;
             color: #2D3748;
         }
@@ -26,20 +25,13 @@
             box-shadow: 0 10px 40px rgba(0, 0, 0, 0.06);
         }
 
-        /* MASSIVE FOREGROUND CAMPAIGN IMAGE (No CSS Backgrounds) */
-        .hero-image {
-            width: 100%;
-            height: 250px;
-            object-fit: cover;
-            object-position: center 25%;
-            display: block;
-        }
+
 
         /* EDITORIAL CAMPAIGN HEADER */
         .editorial-header {
             padding: 50px 40px 40px 40px;
             text-align: center;
-            background-color: #1A3636;
+            background-color: #1b4b3b;
             /* Deep elegant Emerald/Forest Green */
             color: #F9F7F5;
         }
@@ -167,10 +159,6 @@
                 font-size: 42px;
             }
 
-            .hero-image {
-                height: 350px;
-            }
-
             .badges {
                 flex-direction: column;
                 padding: 10px 0;
@@ -187,10 +175,15 @@
 
     <div class="campaign-wrapper">
 
-        <!-- MASSIVE FOREGROUND IMAGE (No CSS Backgrounds) -->
-        <img class="hero-image"
-            src="https://images.unsplash.com/photo-1655807946138-811bb2340d34?q=80&w=971&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Stunning Bright Smile">
+        <!-- DIFFERENTIABLE HEADER -->
+        <div class="header-cap" style="background-color: #1b4b3b; padding: 25px 20px; text-align: center;">
+            <p
+                style="margin: 0; font-size: 12px; color: #D4AF37; text-transform: uppercase; letter-spacing: 4px; font-weight: 600;">
+                {{clinic_name}}
+            </p>
+        </div>
+
+
 
         <!-- EDITORIAL CAMPAIGN HEADER -->
         <div class="editorial-header">
@@ -226,11 +219,19 @@
 
         </div>
 
-        <!-- FOOTER -->
-        <div class="footer">
-            <p><strong>{{clinic_name}}</strong><br>{{clinic_address}}</p>
-            <p>Questions? Call us at <a href="tel:{{clinic_phone}}">{{clinic_phone}}</a> or visit <a
-                    href="{{clinic_website}}">our website</a>.</p>
+        <!-- DIFFERENTIABLE FOOTER -->
+        <div class="footer"
+            style="background-color: #1b4b3b; padding: 40px 20px; text-align: center; border-top: 1px solid #234D4D;">
+            <p style="margin: 0 0 10px 0; font-size: 13px; color: #D4AF37; font-weight: 600; letter-spacing: 1px;">
+                <a href="tel:{{clinic_phone}}" style="color: #D4AF37; text-decoration: none;">{{clinic_phone}}</a>
+            </p>
+            <p style="margin: 0 0 8px 0; color: #A0AEC0;">
+                {{clinic_address}} &nbsp;|&nbsp; <a href="{{clinic_website}}"
+                    style="color: #A0AEC0; text-decoration: underline;">{{clinic_website}}</a>
+            </p>
+            <p style="margin: 0; font-size: 10px; color: #718096;">
+                &copy; {{year}} {{clinic_name}}. All rights reserved.
+            </p>
         </div>
 
     </div>
